@@ -14,7 +14,7 @@
                 </button>
             </div>
             <div class="col-md-4">
-                <a href="${pageContext.request.contextPath}/servletControlador?accion=eliminar&idDisco=${disco.idDiscos}" class="btn btn-danger btn-block">
+                <a href="${pageContext.request.contextPath}/servletControlador?accion=eliminar&idDiscos=${disco.idDiscos}" class="btn btn-danger btn-block">
                     <i class="fas fa-trash"></i>
                     Eliminar Disco
                 </a>

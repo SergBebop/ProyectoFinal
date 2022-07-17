@@ -15,7 +15,8 @@
         
         <jsp:include page="/WEB-INF/paginas/operaciones/listarDiscos.jsp"/>
         
-        <jsp:include page="/WEB-INF/paginas/operaciones/pieDePagina.jsp"/>
+        <jsp:include page="/WEB-INF/paginas/comunes/pieDePagina.jsp"/>
+       
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
     </body>

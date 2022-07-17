@@ -8,7 +8,7 @@
             <div class="col-md-8">
                 <div class="card">
                     <div class="card-header">
-                        <h4>Listado de Libros</h4>
+                        <h4>Listado de Discos</h4>
                     </div>
                     <table class="table table-striped table-dark">
                         <thead class="thead-dark">
@@ -23,9 +23,9 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <c:forEach var="libro" items="${pepe}" varStatus="status">
+                            <c:forEach var="disco" items="${pepe}" varStatus="status">
                                 <tr>
-                                    <td>${disco.count}</td>
+                                    <td>${disco.idDiscos}</td>
                                     <td>${disco.nombre}</td>
                                     <td>${disco.autor}</td>
                                     <td>${disco.canciones}</td>
@@ -33,7 +33,7 @@
                                     <td>${disco.stock}</td>
                                     <!-- COMPLETAR HREF CUANDO ESTE TERMINADO JSP EDITAR -->
                                     <td>
-                                        <a href="${pageContext.request.contextPath}/servletControlador?accion=editar&idLibro=${disco.idDiscos}" 
+                                        <a href="${pageContext.request.contextPath}/servletControlador?accion=editar&idDiscos=${disco.idDiscos}" 
                                            class="btn btn-secondary">
                                             <i class="fas fa-angle-double-right"></i>
                                             Editar
@@ -58,7 +58,6 @@
                     <div class="card-body">
                         <h3>Precio Total de Discos</h3>
                         <h4 class="display-4">
-                            <i class="fas fa-book-dead"></i>
                             <fmt:formatNumber value="${precioTotal}" type="currency"/>
                         </h4>
                     </div>

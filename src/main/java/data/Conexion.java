@@ -7,7 +7,7 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 public class Conexion {
-    private static final String JDBC_URL="jdbc:mysql://localhost:3306/libros?useSSL=false&useTimeZone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
+    private static final String JDBC_URL="jdbc:mysql://localhost:3306/discos?useSSL=false&useTimeZone=true&serverTimeZone=UTC&allowPublicKeyRetrieval=true";
     private static final String JDBC_USR ="root";
     private static final String JDBC_PASS ="admin";
     
