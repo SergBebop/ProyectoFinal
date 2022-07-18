@@ -6,9 +6,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8">
-                <div class="card">
+                <div class="card bg-secondary">
                     <div class="card-header">
-                        <h4>Listado de Discos</h4>
+                        <h4 class="text-white">Listado de Discos</h4>
                     </div>
                     <table class="table table-striped table-dark">
                         <thead class="thead-dark">
@@ -46,8 +46,9 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="card text-center bg-danger text-white mb-3">
+                <div class="card text-center bg-danger  text-white mb-3">
                     <div class="card-body">
+                        <i class="fa-solid fa-album-collection"></i>
                         <h3>Cantidad de Discos</h3>
                         <h4 class="display-4">
                             ${cantidadDiscos}
@@ -58,6 +59,7 @@
                     <div class="card-body">
                         <h3>Precio Total de Discos</h3>
                         <h4 class="display-4">
+                            <i class="fa-regular fa-circle-play"></i>
                             <fmt:formatNumber value="${precioTotal}" type="currency"/>
                         </h4>
                     </div>
@@ -66,5 +68,6 @@
         </div>
     </div>
 </section>
+ 
 
 <jsp:include page="/WEB-INF/paginas/operaciones/agregarDiscos.jsp"/>

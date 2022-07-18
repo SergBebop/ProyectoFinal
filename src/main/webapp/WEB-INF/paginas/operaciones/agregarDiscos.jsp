@@ -29,6 +29,7 @@
                 </div>
                 <div class="modal-footer">
                     <button class="btn btn-primary" type="submit">
+                        <i class="fa-light fa-album-circle-plus"></i>
                         Guardar
                     </button>
                 </div>

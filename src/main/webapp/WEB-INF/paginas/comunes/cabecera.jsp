@@ -1,4 +1,4 @@
-<header id="main-header" class="py-2 bg-info text-white">
+<header id="main-header" class="py-2 bg-dark text-white">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -10,3 +10,4 @@
         </div>
     </div>
 </header>
+<img src="https://thesmokehaus.co.uk/wp-content/uploads/2017/02/music-header.jpg" class="w-100 h-50" alt="banner"/>

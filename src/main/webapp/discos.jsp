@@ -8,7 +8,7 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
         <script src="https://kit.fontawesome.com/382381b436.js" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body class="bg-dark">
         <jsp:include page="/WEB-INF/paginas/comunes/cabecera.jsp"/>
         
         <jsp:include page="/WEB-INF/paginas/comunes/navegacion.jsp"/>
@@ -19,5 +19,6 @@
        
         
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+        
     </body>
 </html>
